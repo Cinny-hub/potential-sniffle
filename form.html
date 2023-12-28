@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORM</title>
+    <link rel="Stylesheet" href="index.css">
+</head>
+<body>
+     <form>
+        <fieldset>
+            <legend>Your address</legend>
+            <label for="fname">First name</label> 
+            <input type="text" id="fname"> <br>
+            <label for="lname">Last name</label> 
+            <input type="text" id ="lname"> <br>
+            <label for="street">Street</label>
+              <input  id="street"> <br>
+            <label for ="city"> City</label>
+              <input type= "text" id="city">
+           
+    </fieldset>
+
+        <fieldset>
+            <legend>Additional details</legend>
+            <label for="bio">Biography</label>
+            <textarea name="bio" id="bio"></textarea> <br>
+            <label for="img">Image</label> 
+             <input type="file" id="img" value="Choose file" ><br>
+            <label for="age">Age Group</label>
+            <select id="age" name="age">
+<option value="one" >0 to 9 years</option>
+</select>
+        </fieldset>
+
+
+
+    <fieldset>
+        <legend>Interest</legend>
+        <label for="hobbies">Hobbies</label>
+        <textarea rows="4"  cols= "15" placeholder= " Playing soccer &#013 Dancing &#013 Gardening &#013 Watching movies "></textarea> <br>
+    <label for="car">Favourite car?</label>
+    <select id="car" name="car">
+<option value="volvo" selected >Volvo</option>
+<option value="toyota" >Toyota</option>
+    </select>  <br>
+    <label for="transport">Favourite pubic transport</label>
+<textarea   id="transport" rows="4" cols="6" placeholder="Ground  &#013 Train &#013 Bus &#013 Water"></textarea>
+    </fieldset> 
+ </form>
+        
+
+</body>
+</html>

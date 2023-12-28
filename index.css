@@ -1,0 +1,44 @@
+
+
+input[type=text] {
+    width: 11%;
+margin-left: 200px;
+    margin-top: 4px;
+}
+#street {
+margin-left: 230px;
+width: 11%;
+margin-top:4px;
+
+}
+
+#city{
+    margin-left: 237px;
+width: 11%;
+
+}
+textarea{
+    margin-left: 210px;
+
+}
+
+
+#age{margin-left: 210px;
+    }
+   #img {
+        margin-left: 237px;
+        margin-top: 4px;
+        margin-bottom: 4px;
+    }
+#car {
+
+margin-left: 170px;
+}
+#transport {
+margin-left: 100px;
+margin-top: 4px;
+}
+
+label {
+    margin-top: 10px;
+}
